@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashasvi Patel</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cbed27d40b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container phn">
+            <nav>
+                <img src="images/yPB1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+					<!--<li><button id="btn">Theme</button></li>-->
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1>Hey Viewers, I'm<span><br>Patel Yashasvi.</span><br>Website Developer</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------About---------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>As a BTech student in Computer Science and Engineering, I bring skills in HTML, JavaScript, Java and Android development in Java, with experience in web and application development. My journey began with a Diploma in Computer Engineering. Fluent in Hindi and proficient in English, I effectively represent my institute and excel in video editing, photo editing, and logo design. My volunteer efforts consistently yield positive outcomes.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br> Java, JavaScript, C, C++, HTML</li>
+                            <li><span>Frameworks & Technologies</span><br>Android Development in Java (Beginner)</li>
+                            <li><span>Web Technologies</span><br>HTML, CSS, JavaScript(Basic)</li>
+                            <li><span>Databases</span><br> MySQL, SQL </li>
+                            <li><span>OS</span><br>Windows, Linux</li>
+                            <li><span>Tools & Platforms</span><br>GitHub, Canva Editor, MS Word, Excel, PowerPoint (Slide Presentation)</li>
+                            <li><span>Other Skills</span><br> Prompt Engineering</li>
+                            <li><span>Languages</span><br> English, Hindi, Gujarati</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Book Store Website (WordPress) 2021-22</span><br> Developed a book store website using WordPress during the 2nd year of diploma. Gained fundamental skills in WordPress and learned the basics of
+ website development.</li>
+                            <li><span> Brain Tumor Prediction Application (Java, Android Studio) 2022-23 </span><br>Contributed to the Android development of a Brain Tumor prediction application. Acquired valuable insights into Android development using Java in
+ Android Studio.</li>
+                            <li><span> Secure Diary Web Application 2024-25</span><br> Designed and developed a secure web-based personal diary application that prioritizes user data privacy using cryptographic hashing techniques.Role:
+ Prompt Developer . Tech Stack: HTML, CSS, JavaScript, Firebase / Node.js / Python (based on your backend), Crypto Libraries (SHA-256, bcrypt)</li>
+                            <li><span> Internship: Lightning Cognitions As a Jr. Web Developer2024-2025</span><br> I believe that the experience I have gained while working with them will be an asset to my future career. Work[With HTML,C# and with Template
+ Also</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2020 - 2023</span><br>JAYVANTRAI HARRAI DESAI POLYTECHNIC <br>
+ Diploma in Computer Enginnering <br>
+ CGPA: 8.93</li>
+                            <li><span>2023 -  4th year~ currently studying</span><br> UKA TARSADIA UNIVERSITY <br> 
+BTech in Computer Science and Engineering</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design1</h2>
+                    <p>abcdefghijklmnopqrstuvwxyz1</p>
+                    <a href="#">Learn more1</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design2</h2>
+                    <p>abcdefghijklmnopqrstuvwxyz2</p>
+                    <a href="#">Learn more2</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design3</h2>
+                    <p>abcdefghijklmnopqrstuvwxyz3</p>
+                    <a href="#">Learn more3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------portfolio--------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/p.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>abcdefghijklmnopqrstuvwxyz</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>abcdefghijklmnopqrstuvwxyz</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>abcdefghijklmnopqrstuvwxyz</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-------------------Contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> yashasviwpatel08@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9016109968</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/yashasvi-patel08"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/CSE_PatelYashasvi.pdf" class="btn btn2">Get To know My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn send">Send</button>
+                    </form>
+                    <span id="msg" style="display: none; color: green; font-weight: bold;">Message sent successfully!</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Patel Yashasvi. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-----------------------JavaScript------------------------>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidem = document.getElementById("sidemenu");
+        function openmenu() {
+            sidem.style.right = "0";
+        }
+        function closemenu() {
+            sidem.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw8BstZKPrBG0G_N5FXK0wHO2GILMnjToyrlvvJId8sb2Zy-zaxyRYb5THp3Wuaw--i/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.style.display = "inline";
+                    msg.innerHTML = "Message sent successfully!";
+                    msg.style.color = "green";
+                    setTimeout(() => {
+                        msg.style.display = "none";
+                    }, 3000);
+                    form.reset();
+                })
+                .catch(error => {
+                    msg.style.display = "inline";
+                    msg.style.color = "red";
+                    msg.innerHTML = "Message failed to send!";
+                    console.error('Error!', error.message);
+                });
+        });
+    </script>
+	<script> var theme = document.getElementById("#btn");
+	let currentmode = "dark";
+		theme.addEventListener("click" () =>{
+		if(currentmode === "dark")
+		{
+			currentmode = "light";
+			document.querySelector("body").style.backgroundColor ="white";
+		}else
+		{
+			document.querySelector("body").style.backgroundColor ="white";
+		}
+		console.log(currentmode);
+		});
+	</script>
+</body>
+</html>
